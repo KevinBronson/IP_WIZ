@@ -1,0 +1,42 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="IP_WIZ.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"IP_WIZ.exe"
+"msvbvm60.dll"
+"OLEAUT32.DLL"
+"OLEPRO32.DLL"
+"ASYCFILT.DLL"
+"STDOLE2.TLB"
+"COMCAT.DLL"
+"ipinfo50.ocx"
+"ping50.ocx"
+"whois50.ocx"
+"scrrun.dll"
+"msvcrt.dll"
+"MSCOMCTL.OCX"
+"tracrt50.ocx"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
+"help.chm"
+"hhctrl.ocx"
+"itss.dll"
+"itircl.dll"
+"hh.exe"
+"help.hhp"
+"Index.hhk"
+"Table of Contents.hhc"
+"SK_GreyBackGround.jpg"
+"SK_Small_Logo.bmp"
+"license.txt"

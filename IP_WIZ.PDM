@@ -1,0 +1,156 @@
+[Root]
+Most Recent Package=IP WIZ Setup
+
+
+[Package|IP WIZ Setup|IP_WIZ]
+Icon1=IP_WIZ.exe
+Title1=IP_WIZ
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IP WIZ Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=h:\Projects\IP WIZ\Distribution
+
+[Package|IP WIZ Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|IP WIZ Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IP WIZ Setup|Files Found]
+
+[Package|IP WIZ Setup|Files Released]
+help.CHI=
+
+[Package|IP WIZ Setup|Missing Dependency Information]
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\whois50.ocx=
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\tracrt50.ocx=
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\ping50.ocx=
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\ipinfo50.ocx=
+
+[Package|IP WIZ Setup|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|IP WIZ Setup|Files Added]
+h:\projects\ip wiz\help\help.chm=
+h:\projects\ip wiz\help\help.hhp=
+h:\projects\ip wiz\help\index.hhk=
+h:\projects\ip wiz\help\log2.log=
+h:\projects\ip wiz\help\table of contents.hhc=
+h:\projects\ip wiz\help\images\sk_greybackground.jpg=
+h:\projects\ip wiz\help\images\sk_small_logo.bmp=
+H:\Projects\IP WIZ\license.txt=
+
+[Package|IP WIZ Setup|Files Removed]
+h:\projects\ip wiz\help\log2.log=
+
+[Package|IP WIZ Setup|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\ipinfo50.ocx=Yes
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\ping50.ocx=Yes
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\tracrt50.ocx=Yes
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\whois50.ocx=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\Projects\IP WIZ\IP_WIZ.exe=Yes
+H:\Projects\IP WIZ\Help\help.chm=Yes
+C:\WINNT\system32\hhctrl.ocx=Yes
+C:\WINNT\system32\itss.dll=Yes
+C:\WINNT\system32\itircl.dll=Yes
+C:\WINNT\hh.exe=Yes
+H:\Projects\IP WIZ\Help\help.hhp=Yes
+H:\Projects\IP WIZ\Help\Index.hhk=Yes
+H:\Projects\IP WIZ\Help\Log2.log=No
+H:\Projects\IP WIZ\Help\Table of Contents.hhc=Yes
+H:\Projects\IP WIZ\Help\Images\SK_GreyBackGround.jpg=Yes
+H:\Projects\IP WIZ\Help\Images\SK_Small_Logo.bmp=Yes
+H:\Projects\IP WIZ\license.txt=Yes
+
+[Package|IP WIZ Setup|Configure Registry Files]
+Applicable=No
+
+[Package|IP WIZ Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|IP WIZ Setup|Install Locations]
+H:\Projects\IP WIZ\EXE\IP_WIZ.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\ipinfo50.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\ping50.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\tracrt50.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V5\Visual Basic Edition\lib\whois50.ocx=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+H:\Projects\IP WIZ\IP_WIZ.exe=$(AppPath)
+H:\Projects\IP WIZ\Help\help.chm=$(AppPath)\Help
+C:\WINNT\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINNT\system32\itss.dll=$(WinSysPath)
+C:\WINNT\system32\itircl.dll=$(WinSysPath)
+C:\WINNT\hh.exe=$(WinSysPath)
+H:\Projects\IP WIZ\Help\help.hhp=$(AppPath)\Help
+H:\Projects\IP WIZ\Help\Index.hhk=$(AppPath)\Help
+H:\Projects\IP WIZ\Help\Table of Contents.hhc=$(AppPath)\Help
+H:\Projects\IP WIZ\Help\Images\SK_GreyBackGround.jpg=$(AppPath)\Help\Images
+H:\Projects\IP WIZ\Help\Images\SK_Small_Logo.bmp=$(AppPath)\Help\Images
+H:\Projects\IP WIZ\license.txt=$(AppPath)
+
+[Package|IP WIZ Setup|Configure Shared Files]
+Applicable=Yes
+H:\Projects\IP WIZ\EXE\IP_WIZ.exe=No
+H:\Projects\IP WIZ\IP_WIZ.exe=No
+H:\Projects\IP WIZ\Help\help.chm=No
+H:\Projects\IP WIZ\Help\help.hhp=No
+H:\Projects\IP WIZ\Help\Index.hhk=No
+H:\Projects\IP WIZ\Help\Table of Contents.hhc=No
+H:\Projects\IP WIZ\Help\Images\SK_GreyBackGround.jpg=No
+H:\Projects\IP WIZ\Help\Images\SK_Small_Logo.bmp=No
+H:\Projects\IP WIZ\license.txt=No
+
+[Package|IP WIZ Setup|Distribution]
+Type=single
+Size=1.44 MB
+Title=IP Wizard
+
+[Package|IP WIZ Setup|Package]
+PackageFolder=h:\Projects\IP WIZ\Distribution
+ProjectFolder=H:\Projects\IP WIZ
+ServerSideCab=
+File1=h:\Projects\IP WIZ\Distribution\setup.exe
+File2=h:\Projects\IP WIZ\Distribution\Setup.Lst
+File3=h:\Projects\IP WIZ\Distribution\IP_WIZ.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|IP WIZ Setup|IconGroups]
+Group0=IP Wizard
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|IP WIZ Setup|IP Wizard]
+Icon1=IP_WIZ.exe
+Title1=IP Wizard
+StartIn1=$(AppPath)
+Key1=Icon1
